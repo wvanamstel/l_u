@@ -9,4 +9,6 @@ The script will download and unzip the appropriate data files and run the model.
 
 1. While building the model, care had to be taken not to encode any forward looking information. For example the column with outstanding loan amount information will be a perfect predictor if a loan has been fully paid. These type of features were not included in the model.  
 
-1. Besides output to stdout there will also be a csv file with results written to disk
+1. Besides output to stdout there will also be a csv file with results written to disk  
+
+1. Descriptions of the feature columns are found here: https://resources.lendingclub.com/LCDataDictionary.xlsx
